@@ -42,6 +42,7 @@ O Ecoleta é uma solução que permite o cadastro de pontos de coletas por meio 
 <div align="center">
 	<img src="readme/home-background.svg" alt="Ecoleta" height="220">
 </div>
+
 Desenvolvido durante a **Next Level Week #01**, créditos a [Rocketseat 🚀](https://github.com/Rocketseat)
 
 <div align="center">
