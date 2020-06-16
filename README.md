@@ -7,7 +7,6 @@
   <img src="readme/mobile.gif" alt="Ecoleta mobile" height="280">
   <br/>
   <br/>
-  <img src="readme/web.gif" alt="Ecoleta web" height="380">
 </div>
 
 
@@ -44,6 +43,13 @@ O Ecoleta é uma solução que permite o cadastro de pontos de coletas por meio 
 </div>
 Desenvolvido durante a **Next Level Week #01**, créditos a [Rocketseat 🚀
 ](https://github.com/Rocketseat)
+
+<div align="center">
+  <img src="readme/web.gif" alt="Ecoleta web" height="380">
+  </br>
+  </br>
+</div>
+
 
 # 🛸 Tecnologias
 
@@ -87,7 +93,7 @@ Desenvolvido durante a **Next Level Week #01**, créditos a [Rocketseat 🚀
 Clone o repositório:
 
 ```
-git clone 
+git clone https://github.com/ViniciusMazon/Ecoleta.git
 ```
 
 Instale as dependências:
@@ -95,24 +101,24 @@ Instale as dependências:
 📁./backend
 
 ```
-yarn install
+yarn
 ```
 📁./frontend
 
 ```
-yarn install
+yarn
 ```
 📁./mobile
 
 ```
-yarn install
+yarn
 ```
 
 
 
 **Desenvolvimento**
 
-**Backend:**
+**Back-end:**
 
 ```
 yarn dev
@@ -121,24 +127,20 @@ yarn dev
 **Web:**
 
 ```
-yarn dev
+yarn start
 ```
 
-Mobile:
+**Mobile:**
 
 ```
-yarn dev
+yarn start
 ```
 
 
-
- **Produção**
-
-...
 
  **Teste**
 
-**Backend**:
+**Back-end**:
 
 ```
 yarn test
@@ -148,36 +150,36 @@ yarn test
 
 # 🧩 Variáveis de ambiente
 
-**Backend**
+**Back-end**
 
-- `HOST`: avc
+- `HOST`: O host da aplicação, por padrão `localhost`
 
-- `PORT`: Selecione a porta em que deseja rodar a API
+- `PORT`: Selecione a porta em que deseja rodar a API, por padrão `3333`
 
-- `IP`: abc
+- `IP`: O ip da máquina para rodar em modo dev
 
-- `STORAGE_TYPE`: abc
+- `STORAGE_TYPE`: O tipo de armazenamento, por padrão `local`
 
-**Frontend**
+**Front-end**
 
-* `REACT_APP_BASE_URL`: acvb
+* `REACT_APP_BASE_URL`: A URL base, por padrão `http://localhost:3333/`
 
 **Mobile**
 
-* `BASE_URL`: abv
+* `BASE_URL`: A URL da API, por padrão o IP do EXPO, ex: `http://192.168.1.64:3333/`
 
   
 
 # 🤖 Scripts
 
-**Backend:**
+**Back-end:**
 
 - `dev`: Roda a aplicação em modo de desenvolvimento
 - `test`: Roda os testes automatizados
 - `knex:migrate`: Roda as migrations
 - `knex:seed`: Roda os seeds
 
-**Frontend:**
+**Front-end:**
 
 - `start`: Roda a aplicação
 
@@ -190,7 +192,7 @@ yarn test
 # 🖖🏻 Como contribuir
 
 - Faça um fork desse repositório;
-- Clone esse repositório em sua máquina: ``
+- Clone esse repositório em sua máquina: `https://github.com/ViniciusMazon/Ecoleta.git`
 - Cria uma branch com a sua feature: `git checkout -b minha-feature`;
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.
