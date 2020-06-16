@@ -27,8 +27,9 @@
    <br/>
   <a href="#-como-contribuir">🖖🏻 Como contribuir</a>
    <br/>
-  <a href="#-license">📝 License</a>
+  <a href="#-licença">📝 Licença</a>
 </p>
+
 
 
 
@@ -201,6 +202,7 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 
 
-# 📝 License
+# 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
